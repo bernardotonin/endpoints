@@ -1,6 +1,6 @@
 # Endpoints
 
- 1. [GET] http://3.85.10.166/movie/list
+ 1. [GET] http://3.85.10.166/movie/list \
 Lista filmes
  2. [GET] http://3.85.10.166/user/list
  Lista usuários
