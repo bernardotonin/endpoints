@@ -1,18 +1,25 @@
 # Endpoints
 
  1. [GET] http://3.85.10.166/movie/list
+
 Lista filmes
- 2. [GET] http://3.85.10.166/user/list
+ 3. [GET] http://3.85.10.166/user/list
+
  Lista usuários
- 3. [GET] http://3.85.10.166/movie/list/{user_id : int}
+ 4. [GET] http://3.85.10.166/movie/list/ {user_id : int}
+ 
  Lista usuário por id
- 4. [GET] http://3.85.10.166/movie/search?query={query : string}
+ 5. [GET] http://3.85.10.166/movie/search?query= {query : string}
+ 
 Procura filme por título
-5. [GET] http://3.85.10.166/movie/actor?query={query : string}
+6. [GET] http://3.85.10.166/movie/actor?query= {query : string}
+
 Procura ator por nome
-6. [GET] http://3.85.10.166/movie/actor/{actor_id : int}
+7. [GET] http://3.85.10.166/movie/actor/ {actor_id : int}
+
 Procura ator por tmdb id
-7. [POST] http://3.85.10.166/user/create
+8. [POST] http://3.85.10.166/user/create
+
 Cria usuário
 Corpo da requisição
 
@@ -20,7 +27,7 @@ Corpo da requisição
     email: string
     password: string
     ```
-8. [POST] http://3.85.10.166/user/favorite/add
+9. [POST] http://3.85.10.166/user/favorite/add
 Adiciona um filme favorito
 Corpo da requisição
 	```
@@ -30,7 +37,7 @@ Corpo da requisição
 	bannerUrl:  str
 	tmdb_id:  int
 	```
-9. [POST] http://3.85.10.166/movie/actor/favorite/add
+10. [POST] http://3.85.10.166/movie/actor/favorite/add
 Adiciona um ator favorito
 Corpo da requisição
 ```
